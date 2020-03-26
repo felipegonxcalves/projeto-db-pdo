@@ -24,7 +24,7 @@ class Curso
         $cSharp->setNome("Curso de C# Fundamentos");
         $cSharp->setVersaoFerramenta("5");
         $cSharp->setCargaHoraria(60);
-        $cSharp->setStatus(false);
+        $cSharp->setStatus(true);
 
         $js = new CursoEntidade;
         $js->setNome("Curso de Javascript Fundamentos");

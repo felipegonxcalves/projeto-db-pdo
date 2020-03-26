@@ -1,6 +1,13 @@
 <?php
 
-function carga_horaria($carga) 
+namespace App\Uteis;
+
+class Formatador
 {
-    return $carga . " horas";
+    static public function cargaHoraria(int $carga): string
+    {
+        return $carga . " horas";
+    }
 }
+
+
